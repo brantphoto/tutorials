@@ -153,3 +153,12 @@ Clean. Pure. Simple.
 
 A pure function that doesn't rely on Class inheritance, declares the arguments/props at the top (easier to read, understand), doesn't require the importing of the react library (at least in this component's file), and has a shortened syntax. It may not be the right choice for all components but for dumb/display components it is a great option.
 
+-------
+Contributors: Brant Barger, Allan Cutler
+
+Catch a typo or have a change? Would love it if you would make a pull request to this repo:
+
+https://github.com/brantphoto/tutorials
+
+Thanks!!
+
