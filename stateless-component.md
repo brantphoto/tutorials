@@ -62,7 +62,7 @@ well there's actually a shorthand for the above that lets you remove `props` fro
 const adder = ({pastRevenues, newRevenues}) => pastRevenues + newRevenues
 ```
 
-How is that the same thing? Well with object destructuring ES2915 we can create a function that takes an object that immediently assign variables that map to the value of the property of the object with a matching name:
+How is that the same thing? Well with object destructuring ES2015 we can create a function that takes an object that immediately assign variables that map to the value of the property of the object with a matching name:
 
 ```javascript
 const x = { pastRevenues: 545, newRevenues: 100,000,000 };
@@ -151,5 +151,5 @@ const MyComponent = (
 
 Clean. Pure. Simple.
 
-A pure function that doesn't rely on Class inheritance, declares the arguments/props at the top (easier to read, understand), doesn't require the inporting of the react library (at least in this component's file), and has a shortened syntax. It may not be the right choice for all components but for dumb/display components it is a great option.
+A pure function that doesn't rely on Class inheritance, declares the arguments/props at the top (easier to read, understand), doesn't require the importing of the react library (at least in this component's file), and has a shortened syntax. It may not be the right choice for all components but for dumb/display components it is a great option.
 
